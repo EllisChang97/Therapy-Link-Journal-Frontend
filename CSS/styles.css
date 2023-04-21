@@ -1,0 +1,144 @@
+html {   box-sizing: border-box; }
+*, *:before, *:after {   box-sizing: inherit; }
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #F1EEE0;
+}
+
+#logo{
+    width: 100%;
+    /* height: 3em; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo > img {
+    width: 200px;
+    height: 150px;
+}
+
+#all-content-container{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    gap: 3%;
+}
+
+#menu-bar-container{
+    height: 30em;
+    width: 20%;
+    border-radius: 5px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+
+.menu-item > p {
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+.menu-icon{
+    width: 30px;
+    height: 30px;
+}
+
+#journal-entry-container{
+    width: 85%;
+    margin-top: -60px;
+}
+
+
+#emotion-input-container{
+    display: flex;
+    align-items: center;
+}
+
+#emoji-container {
+    display: flex;
+    margin-left: 10px;
+    gap: 5px;
+    font-size: 1.5em;
+}
+
+#emoji-container > p {
+    margin-right: 10px;
+}
+
+.text-edit-box{
+    width: 100%;
+    height: 50px;
+    background-color: #FFD966;
+    border-radius: 10px 10px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.group-of-text-edit-icons{
+    display: flex;
+    gap: 10px;
+}
+
+.text-edit-icon{
+    height: 30px;
+    width: 30px;
+}
+
+textarea {
+    width: 100%;
+    /* line-height: 60em; */
+    border-radius: 0px 0px 10px 10px;
+}
+
+#tag-section-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+#tag-options-container{
+    display: flex;
+    gap: 15px;
+}
+
+.a-tag > p{
+    border: 1px solid green;
+    border-radius: 10px;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
+
+#share-option {
+    margin-top: 60px;
+}
+
+#submit-section-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+
+}
+
+#submit-button {
+    border-radius: 10px;
+    height: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}

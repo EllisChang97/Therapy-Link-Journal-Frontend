@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+    <script src="journal.js"></script>
+    <script src="https://kit.fontawesome.com/7ddfde177a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="images/Logo.png">
+        </div>
+    </header>
+    <div id="all-content-container">
+        <div id="menu-bar-container">
+            <div class="menu-item">
+                <img class="menu-icon" src="images/homeicon.png">
+                <p>Home</p>
+            </div>
+            <div class="menu-item">
+                <img class="menu-icon" src="images/search.png">
+                <p>Discover</p>
+            </div>
+            <div class="menu-item">
+                <img class="menu-icon" src="images/journal.png">
+                <p>My Journal</p>
+            </div>
+            <div class="menu-item">
+                <img class="menu-icon" src="images/square-plus-regular.svg">
+                <p>Add Journal</p>
+            </div>
+            <div class="menu-item">
+                <img class="menu-icon" src="images/message.png">
+                <p>Inbox</p>
+            </div>
+        </div> 
+        <div></div>
+        <div id="journal-entry-container">
+            <h1>Journal Entry</h1>
+            <div id="date-section">
+                <label for="date">Date</label>
+                <input type="date" id="date">
+            </div>
+            <div id="emotion-input-container">
+                <p>How are you feeling today?</p>
+                <div id="emoji-container">
+                    <p>&#128512;</p>
+                    <p>&#128528;</p>
+                    <p>&#128542;</p>
+                    <p>&#128544;</p>
+                    <p>&#128546;</p>
+                    <p>&#128553;</p>
+                    <p>&#128579;</p>
+                </div>
+            </div>
+            <div class="text-edit-box">
+                <div class="group-of-text-edit-icons">
+                    <img class="text-edit-icon" src="images/undo.png">
+                    <img class="text-edit-icon" src="images/redo.png">
+                </div>
+                <div class="group-of-text-edit-icons">
+                    <img class="text-edit-icon" src="images/add-text.png">
+                    <img class="text-edit-icon" src="images/textsize.png">
+                    <img class="text-edit-icon" src="images/pencil.png">
+                    <img class="text-edit-icon" src="images/capital.png">
+                    <img class="text-edit-icon" src="images/aberaser.png">
+                    <img class="text-edit-icon" src="images/eraser.png">
+                    <img class="text-edit-icon" src="images/paper.png">
+                    <img class="text-edit-icon" src="images/abar.png">
+                    <img class="text-edit-icon" src="images/addlist.png">
+                </div>
+                <div class="group-of-text-edit-icons">
+                    <img class="text-edit-icon" src="images/newFolder.png">
+                    <img class="text-edit-icon" src="images/newPic.png">
+                    <img class="text-edit-icon" src="images/gif.png">
+                    <img class="text-edit-icon" src="images/Link.png">
+
+                </div>
+            </div>
+            <textarea id="journal-entry-box" rows="50"></textarea>
+            <div id="tag-section-container">
+                <p>Tag your feeling</p>
+                <div id="tag-options-container">
+                    <div class="a-tag"><p id="tag1">Depressed</p></div>
+                    <div class="a-tag"><p id="tag2">Happy</p></div>
+                    <div class="a-tag"><p id="tag3">Anxious</p></div>
+                    <div class="a-tag"><p id="tag4">Sad</p></div>
+                    <div class="a-tag"><p id="tag5">Nervous</p></div>
+                </div>
+            </div>
+            <div id="share-option">    
+                <input type="checkbox" id="share" name="share" value="Share">
+                <label for="share">Share this journal with unconnected therapists</label>
+            </div>
+        </div>
+    </div> 
+    <div id="submit-section-container">
+        <button id="submit-button" type="submit">Post My Journal</button>            
+    </div>
+
+</body>
+</html>
